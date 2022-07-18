@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>NavBar</title>
+    <style>
+        .navbar {
+            background-color: aquamarine;
+            border-radius: 20px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 10px 10px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px;
+            border: 3px solid none;
+            background-color: pink;
+            border-radius: 22px;
+        }
+        .navbar ul li a:hover{
+            background-color: white;
+            color: black;
+        }
+        .navbar ul li a:active{
+            color: lightblue;
+        }
+        .searchbar{
+            float: right;
+            padding: 7px;
+        }
+        .searchbar input{
+            padding: 3px 5px;
+            border: 2px solid brown;
+            border-radius: 15px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li> <a href="">Home</a> </li>
+            <li> <a href="">Updates</a> </li>
+            <li> <a href="">Contact us</a> </li>
+            <div class="searchbar">
+                <input type="text" name="search" id="search" placeholder="Enter something . . .">
+            </div>
+        </ul>
+    </div>
+</body>
+
+</html>
