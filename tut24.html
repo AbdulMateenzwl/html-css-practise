@@ -7,23 +7,51 @@
     <title>Css prop</title>
     <style>
         header{
-            border: 2px solid red;
-        }
-        .heading{
-            text-align: center;
-
+            border: 3px solid red;
+            /* width: 30%; */
         }
         .img{
-            display: block;
+            width: 50px;
             margin: auto;
+            display: block;
+        }
+        .logo{
+            text-align: center;
+            margin: 0%;
+        }
+        .box{
+            background-color: grey;
+            padding:0px 5px;
+            border: 2px solid black;
+            margin:10px 0px;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .container{
+            margin: auto;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
         <img class="img" src="https://yt3.ggpht.com/ytc/AMLnZu8dZQJYCt6Ffcd-pl113huuo_HJ3PpvgkyFk5FkrQ=s88-c-k-c0x00ffffff-no-rj" alt="">
-        <h3 class="heading">Header</h3>
-
+        <h3 class="logo">Welcome to Blog</h3>
     </header>
+    <div class="container">
+        <div class="box">
+            <h2>heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ex ad, hic aperiam molestiae inventore dolor dolorem laboriosam veniam, non, eos optio. Cumque laudantium magnam delectus quia quis quas libero.</p>
+        </div>
+        <div class="box">
+            <h2>heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ex ad, hic aperiam molestiae inventore dolor dolorem laboriosam veniam, non, eos optio. Cumque laudantium magnam delectus quia quis quas libero.</p>
+        </div>
+        <div class="box">
+            <h2>heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ex ad, hic aperiam molestiae inventore dolor dolorem laboriosam veniam, non, eos optio. Cumque laudantium magnam delectus quia quis quas libero.</p>
+        </div>
+    </div>
 </body>
 </html>
