@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS Reset */
+        body {
+            margin: 0px;
+            color: white;
+            padding: 0px;
+            background-image: url(gym.jpg);
+            background-size: 100%;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+
+        .mid {
+
+            /* border: 2px solid purple; */
+            display: block;
+            width: 33%;
+            margin: 10px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            display: inline-block;
+            /* border: 2px solid pink; */
+
+        }
+
+        .navbar {}
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 3px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: rgb(100, 100, 100);
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 50px;
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 10px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 6px;
+            border-radius: 30px;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="left">
+            <img src="mateen devil.png" alt="">
+            <div>Sponser Gym</div>
+        </div>
+
+
+        <div class="mid">
+            <div class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+</body>
+
+</html>
