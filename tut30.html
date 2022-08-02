@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .navbar li {
+            list-style: none;
+            display: flex;
+            padding: 20px 10px;
+        }
+        body{
+            background: url(gym.jpg) no-repeat center center;
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        .navbar {
+            display: flex;
+        }
+        section{
+            height: 400px;
+            margin: 0px 300px; 
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        section p {
+            text-align: center;
+        } 
+    </style>
 </head>
+
 <body>
-    
+    <header class="container">
+        <div class="navbar">
+            <li class="item">Menu</li>
+            <li class="item">Contact us</li>
+            <li class="item">Home</li>
+            <li class="item">Call us</li>
+        </div>
+        
+    </header>
+    <section>
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis, temporibus eum sunt possimus
+            delectus error. Consequuntur blanditiis harum deserunt beatae soluta aspernatur, quidem, necessitatibus
+            vitae, dolorum architecto libero placeat veniam voluptate mollitia temporibus.</p>
+    </section>
+    <hr>
 </body>
+
 </html>
