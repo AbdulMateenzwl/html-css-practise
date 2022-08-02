@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+            display: flex;
+            background-color: rgb(181, 213, 255);
+            justify-content: center;
+            transition: all .2s ease;
+        }
+        .navbar:hover{
+            padding: 2px 0px;
+            border-radius: 0px 0px 15px 15px;
+            background-color: rgb(97, 166, 255);
+
+
+        }
+        .navbar li{
+            list-style: none;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all .5s ease-in-out;
+        }
+        .navbar li:hover{
+            font-size: large;
+            background-color: rgb(255, 255, 255);
+            color: rgb(97, 166, 255);
+            margin: 1px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <li class="item" id="item1">Home</li>
+        <li class="item" id="item2">Inbox</li>
+        <li class="item" id="item3">Contact Us</li>
+        <li class="item" id="item4">About Us</li>
+    </div>
+</body>
+</html>
