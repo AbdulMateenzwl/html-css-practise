@@ -14,7 +14,9 @@
 /* navbar */
 #navbar{
     display: flex;
-    position: relative;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 #logo{
     margin: 5px 20px;
@@ -23,6 +25,7 @@
 #logo img{
     height: 50px;
     width: 50px;
+    padding: 0;
 }
 #navbar ul{
     align-items: center;
@@ -61,11 +64,13 @@
 /*  Home section */
 #home::before{
     content: "";
+    top: 0;
+    left: 0;
     position: absolute;
     background: url(bg.jpg) no-repeat center center/cover;
-    z-index: -1;
+    z-index: -10;
     width: 100%;
-    height: 100%;
+    height: 450px;
     /* opacity: .9; */
 }
 #home{
@@ -74,7 +79,7 @@
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 450px;
 }
 #home h1{
     color: white;
@@ -84,8 +89,60 @@
     text-align: center;
     font-size: 1.5rem;
 }
+/* services */
+#services{
+    margin: 34px ;
+    display: flex;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 10px;
+    margin:  0px 3px;
+    border-radius: 28px;
+
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+#services .box p{
+    text-align: center;
+}
+
+
+/* client section */
+ 
+#client-section{
+    height: 140px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* utility classes */
 .h-primary{
     font-size: 3rem;
     padding: 12px;
+}
+.h-secondary{
+    font-size: 2rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
 }
