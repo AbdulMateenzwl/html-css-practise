@@ -9,13 +9,17 @@
         .container{
             border: 2px solid pink;
             display: grid;
-            grid-template-columns: 150px 150px 150px;
+            /* grid-template-columns: 150px auto 150px; */
+            /* grid-template-columns: 1fr 3fr 2fr; */
+            grid-template-columns: repeat(3,auto);
         }
         .item{
             height: 100px;
-            width: 100px;
+            /* width: 100px; */
             background-color: red;
             margin: 3px;
+
+            border: 2px solid black;
         }
     </style>
 </head>
