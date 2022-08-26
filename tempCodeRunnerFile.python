@@ -1,0 +1,13 @@
+def find_prime(num):
+    for i in range(2,num):
+        if num%i==0:
+            return False
+    return True
+def sort(list):
+    return list.sort()
+def  get(num):
+    for i in range(num):
+        pass
+print('here'[::-1])
+g= 'mateen'
+print(f'letme tell{g}')
